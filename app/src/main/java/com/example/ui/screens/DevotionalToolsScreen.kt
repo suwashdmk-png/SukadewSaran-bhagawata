@@ -53,7 +53,7 @@ fun DevotionalToolsScreen(viewModel: SaptahaViewModel) {
         label = "shankhaScale"
     )
 
-    var currentTab by remember { mutableStateOf(0) } // 0: Jap Counter, 1: Virtual Aarti, 2: Sacred Sounds
+    var currentTab by remember { mutableStateOf(0) } // 0: Jap Counter, 1: Virtual Aarti, 2: Sacred Sounds, 3: Katha Audio Player
 
     Column(
         modifier = Modifier
@@ -89,6 +89,12 @@ fun DevotionalToolsScreen(viewModel: SaptahaViewModel) {
                 onClick = { currentTab = 2 },
                 text = { Text("शङ्ख ध्वनि", fontWeight = FontWeight.Bold) },
                 modifier = Modifier.testTag("tab_sounds")
+            )
+            Tab(
+                selected = currentTab == 3,
+                onClick = { currentTab = 3 },
+                text = { Text("कथा अडियो", fontWeight = FontWeight.Bold) },
+                modifier = Modifier.testTag("tab_audio_player")
             )
         }
 
@@ -469,6 +475,10 @@ fun DevotionalToolsScreen(viewModel: SaptahaViewModel) {
 
                     Spacer(modifier = Modifier.height(100.dp))
                 }
+            }
+            3 -> {
+                // KATHA NARRATION AUDIO PLAYER TAB
+                AudioPlayer(viewModel = viewModel)
             }
         }
     }

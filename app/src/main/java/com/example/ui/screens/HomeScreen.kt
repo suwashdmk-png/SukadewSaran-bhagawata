@@ -443,6 +443,15 @@ fun HomeScreen(
                     modifier = Modifier.fillMaxWidth()
                 )
             }
+
+            // Daily Shloka Component (Sanskrit shloka, Nepali translation and meanings)
+            item {
+                Spacer(modifier = Modifier.height(20.dp))
+                DailyShlokaComponent(
+                    viewModel = viewModel,
+                    modifier = Modifier.fillMaxWidth()
+                )
+            }
         }
     }
 }
