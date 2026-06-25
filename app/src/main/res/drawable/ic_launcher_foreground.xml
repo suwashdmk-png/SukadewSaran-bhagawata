@@ -1,0 +1,137 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Glowing Halo / Mandala Ring -->
+    <group>
+        <!-- Outer spiritual circle -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#7FFFCE07"
+            android:strokeWidth="1"
+            android:strokeLineCap="round"
+            android:pathData="M 54,52 m -24,0 a 24,24 0 1,1 48,0 a 24,24 0 1,1 -48,0" />
+
+        <!-- Inner solid golden ring -->
+        <path
+            android:fillColor="#1AFFF3E0"
+            android:strokeColor="#FFB300"
+            android:strokeWidth="1"
+            android:pathData="M 54,52 m -20,0 a 20,20 0 1,1 40,0 a 20,20 0 1,1 -40,0" />
+    </group>
+
+    <!-- Yogi Figure Group -->
+    <group>
+        <!-- Flowing matted hair behind shoulders -->
+        <path
+            android:fillColor="#2E1C12"
+            android:pathData="M 40,54 C 38,58 37,64 37,70 C 43,68 47,62 48,56 Z" />
+        <path
+            android:fillColor="#2E1C12"
+            android:pathData="M 68,54 C 70,58 71,64 71,70 C 65,68 61,62 60,56 Z" />
+
+        <!-- Hair Bun (Jata / Topknot) -->
+        <path
+            android:fillColor="#2E1C12"
+            android:pathData="M 54,29 C 57,29 59.5,27.5 59.5,25 C 59.5,22 56.5,20 54,20 C 51.5,20 48.5,22 48.5,25 C 48.5,27.5 51,29 54,29 Z" />
+        <!-- Secondary bun layer for hair tie -->
+        <path
+            android:fillColor="#FFD54F"
+            android:pathData="M 50,28 L 58,28 L 57,30 L 51,30 Z" />
+
+        <!-- Face / Head -->
+        <path
+            android:fillColor="#FFE0B2"
+            android:pathData="M 54,30 C 50,30 48,33 48,38 C 48,42 51,44 54,44 C 57,44 60,42 60,38 C 60,33 58,30 54,30 Z" />
+
+        <!-- Forehead Tilak (Spiritual Red/Yellow mark from the photo) -->
+        <path
+            android:fillColor="#D84315"
+            android:pathData="M 53.5,32 L 54.5,32 L 54.5,35 L 53.5,35 Z" />
+        <path
+            android:fillColor="#FFB300"
+            android:pathData="M 52,33.5 L 56,33.5" />
+
+        <!-- Eyes closed in meditation -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#2E1C12"
+            android:strokeWidth="0.8"
+            android:strokeLineCap="round"
+            android:pathData="M 50,37 C 51,38 52,38 52.5,37" />
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#2E1C12"
+            android:strokeWidth="0.8"
+            android:strokeLineCap="round"
+            android:pathData="M 55.5,37 C 56,38 57,38 58,37" />
+
+        <!-- Beard and Mustache (traditional gray-brown/white beard) -->
+        <path
+            android:fillColor="#ECEFF1"
+            android:strokeColor="#CFD8DC"
+            android:strokeWidth="0.5"
+            android:pathData="M 48,39 C 48,41 49,43 51,43 C 51,42 53,42 54,42 C 55,42 57,42 57,43 C 59,43 60,41 60,39 C 60,39 58,40 54,40 C 50,40 48,39 48,39 Z" />
+        <path
+            android:fillColor="#ECEFF1"
+            android:strokeColor="#CFD8DC"
+            android:strokeWidth="0.5"
+            android:pathData="M 48,43 C 48,51 54,55 54,55 C 54,55 60,51 60,43 C 60,45 58,48 54,48 C 50,48 48,45 48,43 Z" />
+
+        <!-- Saffron Robe / Torso -->
+        <path
+            android:fillColor="#FF7043"
+            android:pathData="M 44,52 C 41,52 38,55 37,60 L 40,65 C 43,63 46,62 48,64 C 51,66 57,66 60,64 C 62,62 65,63 68,65 L 71,60 C 70,55 67,52 64,52 Z" />
+
+        <!-- Draped Shawl Overlay (adding fabric texture from photo) -->
+        <path
+            android:fillColor="#E64A19"
+            android:pathData="M 43,53 C 41,56 42,61 46,64 C 50,60 48,55 43,53 Z" />
+
+        <!-- Crossed Legs (Lotus Pose) -->
+        <path
+            android:fillColor="#FF7043"
+            android:pathData="M 33,68 C 31,69 31,73 35,74 C 42,75 48,72 54,72 C 60,72 66,75 73,74 C 77,73 77,69 75,68 C 73,66 68,66 65,68 C 58,70 50,70 43,68 C 40,66 35,66 33,68 Z" />
+
+        <!-- Feet (bare feet showing in lotus pose) -->
+        <path
+            android:fillColor="#FFE0B2"
+            android:pathData="M 38,68 C 36,68 35,69 35,71 C 36,72 39,71 40,69 Z" />
+        <path
+            android:fillColor="#FFE0B2"
+            android:pathData="M 70,68 C 72,68 73,69 73,71 C 72,72 69,71 68,69 Z" />
+
+        <!-- Hands in Mudra resting on knees -->
+        <path
+            android:fillColor="#FFE0B2"
+            android:pathData="M 34,65 C 33,65 32,66 32,67 C 32,69 35,69 36,67 C 36,66 35,65 34,65 Z" />
+        <path
+            android:fillColor="#FFE0B2"
+            android:pathData="M 74,65 C 75,65 76,66 76,67 C 76,69 73,69 72,67 C 72,66 73,65 74,65 Z" />
+
+        <!-- Rudraksha Necklaces / Malas (from photo) -->
+        <!-- Outer long mala -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#5D4037"
+            android:strokeWidth="0.8"
+            android:strokeLineCap="round"
+            android:pathData="M 45,51 C 45,59 63,59 63,51" />
+        <!-- Medium mala -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#5D4037"
+            android:strokeWidth="0.8"
+            android:strokeLineCap="round"
+            android:pathData="M 47,49 C 47,56 61,56 61,49" />
+        <!-- Inner short mala -->
+        <path
+            android:fillColor="#00000000"
+            android:strokeColor="#5D4037"
+            android:strokeWidth="0.8"
+            android:strokeLineCap="round"
+            android:pathData="M 49,47 C 49,53 59,53 59,47" />
+    </group>
+</vector>
